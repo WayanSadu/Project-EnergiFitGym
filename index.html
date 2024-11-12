@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>EnergiFit Gym</title>
+  </head>
+  <body class="bg-body text-white">
+    <!-- Navbar Start -->
+    <header class="bg-transparent top-0 left-0 w-full flex items-center z-50">
+      <div
+        class="container mx-auto pt-5 flex items-center justify-between relative"
+      >
+        <div class="flex items-center gap-3 xl:gap-4 lg:w-[30%]">
+          <img src="dist/img/logo.svg" alt="" class="w-5 xl:w-8" />
+          <h1
+            class="text-white font-extrabold text-base lg:text-lg xl:text-2xl"
+          >
+            EnergiFit Gym
+          </h1>
+        </div>
+        <button id="hamburger" type="button" class="z-50 lg:hidden">
+          <img src="dist/img/Burger-icon.svg" alt="" class="" />
+        </button>
+        <nav
+          class="hidden absolute bg-white bg-opacity-20 text-white lg:text-white right-1 top-14 rounded-md py-2 w-36 px-3 gap-8 lg:flex lg:bg-transparent lg:static lg:w-auto"
+          id="nav-menu"
+        >
+          <div
+            class="flex flex-col gap-3 lg:flex-row items-center lg:gap-8 xl:gap-9"
+          >
+            <ul class="">
+              <li class="flex flex-col gap-3 lg:flex-row lg:gap-7 xl:gap-8">
+                <a
+                  href="#Beranda"
+                  class="text-lg font-medium hover:text-primary nav-class lg:opacity-70 lg:hover:opacity-100"
+                  >Beranda</a
+                >
+                <a
+                  href="#Profil"
+                  class="text-lg font-medium hover:text-primary nav-class lg:opacity-70 lg:hover:opacity-100"
+                  >Profil</a
+                >
+                <a
+                  href="#Pelatih"
+                  class="text-lg font-medium hover:text-primary nav-class lg:opacity-70 lg:hover:opacity-100"
+                  >Pelatih</a
+                >
+                <a
+                  href="#Harga"
+                  class="text-lg font-medium hover:text-primary nav-class lg:opacity-70 lg:hover:opacity-100"
+                  >Harga</a
+                >
+                <a
+                  href="#Review"
+                  class="text-lg font-medium hover:text-primary nav-class lg:opacity-70 lg:hover:opacity-100"
+                  >Review</a
+                >
+              </li>
+            </ul>
+            <a
+              href="#"
+              class="bg-primary text-body text-sm font-semibold block w-full py-[8px] rounded-md text-center lg:text-base lg:px-5 lg:py-3 xl:text-lg xl:font-bold 2xl:px-7 2xl:py-[14px]"
+              >Hubungi Kami</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <section class="container mx-auto mt-10 xl:mt-14 2xl:mt-10" id="Beranda">
+      <div
+        class="flex flex-col md:flex-row md:items-end md:justify-between lg:items-center"
+      >
+        <div
+          class="flex flex-col gap-4 md:w-[50%] md:gap-5 lg:w-[45%] lg:gap-6 lg:pt-10 xl:gap-7 xl:pt-16 2xl:gap-8 2xl:pt-16"
+        >
+          <div class="flex flex-col gap-2 lg:gap-4 xl:gap-5 2xl:gap-6">
+            <h1
+              class="text-xl font-black w-[70%] tracking-wider md:leading-[38px] md:w-[94%] md:text-2xl lg:text-4xl lg:leading-[44px] lg:w-[85%] xl:text-[50px] xl:w-[100%] xl:leading-[60px] 2xl:text-[63px] 2xl:leading-[74px]"
+            >
+              Transformasi
+              <span class="font-semibold opacity-85"
+                >Tubuh dan Pikiranmu di EnergiFit Gym</span
+              >
+            </h1>
+            <p
+              class="text-xs font-medium opacity-65 leading-4 w-[80%] md:w-[80%] lg:text-sm lg:w-[83%] xl:text-lg xl:w-[90%] xl:font-normal 2xl:w-[75%]"
+            >
+              Jadilah versi terbaik dari dirimu dengan program latihan kelas
+              dunia dan fasilitas terlengkap. Mulai perjalanan kebugaranmu hari
+              ini!
+            </p>
+          </div>
+          <div
+            class="flex flex-col gap-4 md:gap-5 lg:gap-6 xl:gap-7 2xl:gap-[34px]"
+          >
+            <div class="flex items-center gap-2 lg:gap-4 xl:gap-5 2xl:gap-6">
+              <a
+                href="#"
+                class="bg-primary text-body text-xs font-semibold block px-[14px] py-2 rounded-md text-center lg:text-sm lg:px-4 lg:py-[10px] xl:text-base xl:px-[26px] xl:py-[13px] 2xl:font-bold"
+                >Mulai Sekarang</a
+              >
+              <a
+                href="#"
+                class="flex items-center gap-[6px] xl:gap-4 2xl:gap-5"
+              >
+                <img
+                  src="dist/img/Video-Button.svg"
+                  alt="button"
+                  class="w-7 lg:w-8 xl:w-11"
+                />
+                <p
+                  class="text-xs font-medium opacity-90 lg:text-sm xl:text-base"
+                >
+                  Tonton Video Kami
+                </p>
+              </a>
+            </div>
+            <div class="flex items-center gap-3 lg:gap-4 xl:gap-5 2xl:gap-6">
+              <div class="flex -space-x-2">
+                <img
+                  src="dist/img/Hero-Review-IMG1.svg"
+                  alt="img1"
+                  class="w-8 lg:w-9 xl:w-10 2xl:w-auto"
+                />
+                <img
+                  src="dist/img/Hero-Review-IMG2.svg"
+                  alt="img1"
+                  class="w-8 lg:w-9 xl:w-10 2xl:w-auto"
+                />
+                <img
+                  src="dist/img/Hero-Review-IMG3.svg"
+                  alt="img1"
+                  class="w-8 lg:w-9 xl:w-10 2xl:w-auto"
+                />
+                <img
+                  src="dist/img/Hero-Review-IMG4.svg"
+                  alt="img1"
+                  class="w-8 lg:w-9 xl:w-10 2xl:w-auto"
+                />
+                <img
+                  src="dist/img/Hero-Review-IMG5.svg"
+                  alt="img1"
+                  class="w-8 lg:w-9 xl:w-10 2xl:w-auto"
+                />
+              </div>
+              <p
+                class="font-semibold text-sm text-primary lg:text-base xl:text-lg"
+              >
+                20K
+                <span
+                  class="p-1 font-medium text-xs text-white opacity-70 lg:text-sm xl:text-base xl:p-2"
+                  >Review Positif</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex pt-6 md:items-end md:gap-10 lg:gap-16 lg:pt-0 lg:items-center xl:gap-20 2xl:gap-[96px]"
+        >
+          <img
+            src="dist/img/Hero-img.svg"
+            alt="Hero-img"
+            class="hidden md:block md:w-56 lg:w-80 xl:w-[420px] 2xl:w-[485px]"
+          />
+          <div
+            class="flex gap-6 md:flex-col lg:gap-12 lg:pt-24 xl:gap-20 xl:pt-32 2xl:gap-24 2xl:pt-36"
+          >
+            <div class="flex flex-col lg:gap-1 xl:gap-2">
+              <h1 class="font-bold text-xl lg:text-2xl xl:text-4xl">
+                05<span class="text-primary">+</span>
+              </h1>
+              <p class="text-xs font-medium opacity-65 lg:text-sm xl:text-base">
+                Tahun
+              </p>
+            </div>
+            <div class="flex flex-col lg:gap-1 xl:gap-2">
+              <h1 class="font-bold text-xl lg:text-2xl xl:text-4xl">
+                80K<span class="text-primary">+</span>
+              </h1>
+              <p class="text-xs font-medium opacity-65 lg:text-sm xl:text-base">
+                Pelanggan
+              </p>
+            </div>
+            <div class="flex flex-col lg:gap-1 xl:gap-2">
+              <h1 class="font-bold text-xl lg:text-2xl xl:text-4xl">
+                30<span class="text-primary">+</span>
+              </h1>
+              <p class="text-xs font-medium opacity-65 lg:text-sm xl:text-base">
+                Pelatih Pro
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- Mitra Start -->
+    <section class="container mx-auto mt-20 xl:mt-28 2xl:mt-36">
+      <div class="hidden md:flex md:justify-between">
+        <img
+          src="dist/img/pocari.svg"
+          alt="Pocari"
+          class="w-20 lg:w-28 xl:w-36 2xl:w-40"
+        />
+        <img
+          src="dist/img/Adidas.svg"
+          alt="Adidas"
+          class="w-20 lg:w-28 xl:w-36 2xl:w-40"
+        />
+        <img
+          src="dist/img/Spotify.svg"
+          alt="Spotify"
+          class="w-20 lg:w-28 xl:w-36 2xl:w-40"
+        />
+        <img
+          src="dist/img/Samsung.svg"
+          alt="Samsung"
+          class="w-20 lg:w-28 xl:w-36 2xl:w-40"
+        />
+        <img
+          src="dist/img/Peloton.svg"
+          alt="Peloton"
+          class="w-20 lg:w-28 xl:w-36 2xl:w-40"
+        />
+      </div>
+    </section>
+    <!-- Mitra End -->
+
+    <!-- layanan Start -->
+    <section class="container mx-auto mt-10 md:mt-14 xl:mt-48">
+      <div class="flex flex-col items-center gap-2 lg:gap-3 xl:gap-5 2xl:gap-7">
+        <h1
+          class="text-center font-extrabold text-base tracking-wider lg:text-xl xl:text-4xl 2xl:text-[44px]"
+        >
+          Layanan
+          <span class="font-semibold opacity-80">Kebugaran Terbaik</span>
+        </h1>
+        <p
+          class="text-center text-xs font-medium opacity-65 leading-4 w-[90%] md:w-[50%] lg:text-sm lg:w-[45%] xl:text-lg xl:w-[40%] xl:font-normal 2xl:w-[35%]"
+        >
+          layanan kebugaran untuk mendukung Anda mencapai tujuan kesehatan dan
+          kebugaran Anda.
+        </p>
+      </div>
+      <div class="swiper service-swiper">
+        <div class="swiper-wrapper py-10 lg:py-14">
+          <div class="swiper-slide bg-bgbox rounded-md xl:rounded-lg">
+            <div
+              class="flex flex-col gap-2 p-2 -mt-6 md:p-5 lg:-mt-9 lg:gap-4 xl:-mt-11 2xl:-mt-12 2xl:p-6"
+            >
+              <div
+                class="flex bg-primary w-1/3 py-[10px] justify-center rounded-md md:w-[23%] lg:py-4 xl:w-[26%] 2xl:py-5"
+              >
+                <img
+                  src="dist/img/Personal-training.svg"
+                  alt="icon"
+                  class="w-[18px] lg:w-5 xl:w-6 2xl:w-7"
+                />
+              </div>
+              <div class="flex flex-col gap-1 lg:gap-2">
+                <h1
+                  class="font-bold text-sm lg:text-base xl:text-xl 2xl:text-2xl"
+                >
+                  Personal Training
+                </h1>
+                <p
+                  class="font-normal text-[10px] opacity-65 line-clamp-3 lg:text-xs xl:text-base 2xl:text-[17px]"
+                >
+                  Dapatkan bimbingan dari pelatih profesional yang akan membuat
+                  program latihan khusus.
+                </p>
+                <a
+                  href="#"
+                  class="font-normal text-[10px] text-primary lg:text-xs lg:pt-1 xl:text-base 2xl:text-[17px] 2xl:pt-2"
+                  >Lihat Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide bg-bgbox rounded-md xl:rounded-lg">
+            <div
+              class="flex flex-col gap-2 p-2 -mt-6 md:p-5 lg:-mt-9 lg:gap-4 xl:-mt-11 2xl:-mt-12 2xl:p-6"
+            >
+              <div
+                class="flex bg-primary w-1/3 py-[10px] justify-center rounded-md md:w-[23%] lg:py-4 xl:w-[26%] 2xl:py-5"
+              >
+                <img
+                  src="dist/img/Kelas-Kebugaran-Kelompok.svg"
+                  alt="icon"
+                  class="w-[18px] lg:w-5 xl:w-6 2xl:w-7"
+                />
+              </div>
+              <div class="flex flex-col gap-1 lg:gap-2">
+                <h1
+                  class="font-bold text-sm lg:text-base xl:text-xl 2xl:text-2xl"
+                >
+                  Kelas Kebugaran
+                </h1>
+                <p
+                  class="font-normal text-[10px] opacity-65 line-clamp-3 lg:text-xs xl:text-base 2xl:text-[17px]"
+                >
+                  Bergabunglah dengan berbagai kelas kebugaran yang menyenangkan
+                  dan menantang.
+                </p>
+                <a
+                  href="#"
+                  class="font-normal text-[10px] text-primary lg:text-xs lg:pt-1 xl:text-base 2xl:text-[17px] 2xl:pt-2"
+                  >Lihat Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide bg-bgbox rounded-md xl:rounded-lg">
+            <div
+              class="flex flex-col gap-2 p-2 -mt-6 md:p-5 lg:-mt-9 lg:gap-4 xl:-mt-11 2xl:-mt-12 2xl:p-6"
+            >
+              <div
+                class="flex bg-primary w-1/3 py-[10px] justify-center rounded-md md:w-[23%] lg:py-4 xl:w-[26%] 2xl:py-5"
+              >
+                <img
+                  src="dist/img/Paket-Keanggotaan.svg"
+                  alt="icon"
+                  class="w-[18px] lg:w-5 xl:w-6 2xl:w-7"
+                />
+              </div>
+              <div class="flex flex-col gap-1 lg:gap-2">
+                <h1
+                  class="font-bold text-sm lg:text-base xl:text-xl 2xl:text-2xl"
+                >
+                  Paket Keanggotaan
+                </h1>
+                <p
+                  class="font-normal text-[10px] opacity-65 line-clamp-3 lg:line-clamp-2 lg:text-xs xl:text-base xl:line-clamp-3 2xl:text-[17px]"
+                >
+                  Kami menawarkan berbagai paket keanggotaan yang dirancang
+                  untuk memenuhi kebutuhan Anda.
+                </p>
+                <a
+                  href="#"
+                  class="font-normal text-[10px] text-primary lg:text-xs lg:pt-1 xl:text-base 2xl:text-[17px] 2xl:pt-2"
+                  >Lihat Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide bg-bgbox rounded-md xl:rounded-lg">
+            <div
+              class="flex flex-col gap-2 p-2 -mt-6 md:p-5 lg:-mt-9 lg:gap-4 xl:-mt-11 2xl:-mt-12 2xl:p-6"
+            >
+              <div
+                class="flex bg-primary w-1/3 py-[10px] justify-center rounded-md md:w-[23%] lg:py-4 xl:w-[26%] 2xl:py-5"
+              >
+                <img
+                  src="dist/img/Fasilitas-Kebugaran.svg"
+                  alt="icon"
+                  class="w-[18px] lg:w-5 xl:w-6 2xl:w-7"
+                />
+              </div>
+              <div class="flex flex-col gap-1 lg:gap-2">
+                <h1
+                  class="font-bold text-sm lg:text-base xl:text-xl 2xl:text-2xl"
+                >
+                  Fasilitas Kebugaran
+                </h1>
+                <p
+                  class="font-normal text-[10px] opacity-65 line-clamp-3 lg:text-xs xl:text-base 2xl:text-[17px]"
+                >
+                  Fasilitas kebugaran yang lengkap dan dirancang untuk mendukung
+                  latihan Anda secara optimal.
+                </p>
+                <a
+                  href="#"
+                  class="font-normal text-[10px] text-primary lg:text-xs lg:pt-1 xl:text-base 2xl:text-[17px] 2xl:pt-2"
+                  >Lihat Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide bg-bgbox rounded-md xl:rounded-lg">
+            <div
+              class="flex flex-col gap-2 p-2 -mt-6 md:p-5 lg:-mt-9 lg:gap-4 xl:-mt-11 2xl:-mt-12 2xl:p-6"
+            >
+              <div
+                class="flex bg-primary w-1/3 py-[10px] justify-center rounded-md md:w-[23%] lg:py-4 xl:w-[26%] 2xl:py-5"
+              >
+                <img
+                  src="dist/img/Konsultasi-Nutrisi.svg"
+                  alt="icon"
+                  class="w-[18px] lg:w-5 xl:w-6 2xl:w-7"
+                />
+              </div>
+              <div class="flex flex-col gap-1 lg:gap-2">
+                <h1
+                  class="font-bold text-sm lg:text-base xl:text-xl 2xl:text-2xl"
+                >
+                  Konsultasi Nutrisi
+                </h1>
+                <p
+                  class="font-normal text-[10px] opacity-65 line-clamp-3 lg:text-xs xl:text-base 2xl:text-[17px]"
+                >
+                  Dapatkan saran dari ahli nutrisi kami untuk membuat rencana
+                  makan yang sesuai.
+                </p>
+                <a
+                  href="#"
+                  class="font-normal text-[10px] text-primary lg:text-xs lg:pt-1 xl:text-base 2xl:text-[17px] 2xl:pt-2"
+                  >Lihat Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+    <!-- layanan End -->
+
+    <!-- Profil Start -->
+    <section
+      class="container mx-auto mt-10 mb-28 md:mt-14 xl:mt-48"
+      id="Profil"
+    >
+      <div
+        class="flex flex-col md:flex-row md::items-center md:justify-between"
+      >
+        <img
+          src="dist/img/Profil-IMG.svg"
+          alt=""
+          class="md:w-80 lg:w-[400px] xl:w-[48%]"
+        />
+        <div
+          class="flex flex-col gap-5 md:pt-16 lg:w-[50%] lg:pt-24 xl:gap-7 xl:pt-28 2xl:pt-40"
+        >
+          <div class="flex flex-col gap-1 md:gap-2 lg:gap-3 xl:gap-4 2xl:gap-6">
+            <h1
+              class="font-extrabold text-base tracking-wider md:w-[60%] lg:text-xl lg:w-auto xl:text-4xl xl:leading-[55px] xl:w-[70%] 2xl:text-[44px] 2xl:w-[80%]"
+            >
+              Mengenal Lebih<span class="font-semibold opacity-80">
+                Dekat EnergiFit Gym</span
+              >
+            </h1>
+            <p
+              class="text-xs font-medium opacity-65 leading-4 w-[100%] md:w-[80%] lg:text-sm lg:w-auto xl:text-lg xl:font-normal 2xl:w-[78%]"
+            >
+              EnergiFit Gym adalah pusat kebugaran terkemuka yang membantu
+              setiap individu mencapai potensi terbaik mereka dalam kebugaran
+              dan kesehatan.
+            </p>
+          </div>
+          <div class="flex flex-col gap-6 xl:gap-8 2xl:gap-10">
+            <div
+              class="flex justify-between md:justify-normal md:gap-8 xl:gap-11"
+            >
+              <div class="flex flex-col gap-4 xl:gap-6 2xl:gap-8">
+                <div class="flex gap-1 items-center lg:gap-3 xl:gap-4">
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-[12%]"
+                  />
+                  <p
+                    class="font-normal text-[11px] opacity-65 lg:text-[13px] xl:text-[17px] xl:w-full"
+                  >
+                    Pelatih Berpengalaman
+                  </p>
+                </div>
+                <div class="flex gap-1 items-center lg:gap-3 xl:gap-4">
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-[12%]"
+                  />
+                  <p
+                    class="font-normal text-[11px] opacity-65 lg:text-[13px] xl:text-[17px] xl:w-full"
+                  >
+                    Lingkungan yang Inklusif
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-4 xl:gap-6 2xl:gap-8">
+                <div class="flex gap-1 items-center lg:gap-3 xl:gap-4">
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-[12%]"
+                  />
+                  <p
+                    class="font-normal text-[11px] opacity-65 lg:text-[13px] xl:text-[17px] xl:w-full"
+                  >
+                    Fasilitas Modern dan Lengkap
+                  </p>
+                </div>
+                <div class="flex gap-1 items-center lg:gap-3 xl:gap-4">
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-[12%]"
+                  />
+                  <p
+                    class="font-normal text-[11px] opacity-65 lg:text-[13px] xl:text-[17px] xl:w-full"
+                  >
+                    Program Latihan yang Inovatif
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 lg:gap-6 xl:gap-8">
+              <a
+                href="#"
+                class="bg-primary text-body text-xs font-semibold block px-[14px] py-2 rounded-md text-center lg:text-sm lg:px-4 lg:py-[10px] xl:text-base xl:px-[26px] xl:py-[13px] 2xl:font-bold"
+                >Mulai Sekarang</a
+              >
+              <a href="#" class="flex items-center gap-2 lg:gap-3 xl:gap-4">
+                <p
+                  class="text-xs font-semibold opacity-65 lg:text-sm xl:text-base xl:w-full"
+                >
+                  Hubungi Kami
+                </p>
+                <img
+                  src="dist/img/Arrow.svg"
+                  alt="Arrow"
+                  class="w-3 lg:w-[14%] xl:w-[16%]"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Profil End -->
+
+    <!-- Pelatih Start -->
+    <section class="container mx-auto mt-10 md:mt-14 xl:mt-48" id="Pelatih">
+      <div class="flex flex-col">
+        <div
+          class="flex flex-col items-center gap-2 lg:gap-3 xl:gap-5 2xl:gap-7"
+        >
+          <h1
+            class="text-center font-extrabold text-base tracking-wider lg:text-xl xl:text-4xl 2xl:text-[44px]"
+          >
+            Tim Pelatih
+            <span class="font-semibold opacity-80">Profesional Kami</span>
+          </h1>
+          <p
+            class="text-center text-xs font-medium opacity-65 leading-4 w-[85%] md:w-[100%] lg:text-sm xl:text-lg xl:font-normal"
+          >
+            Setiap pelatih kami siap membantu Anda mencapai tujuan kebugaran
+            Anda.
+          </p>
+        </div>
+
+        <div class="swiper w-full coach-swiper">
+          <div class="swiper-wrapper py-10 lg:py-14">
+            <div class="swiper-slide w-full">
+              <img src="dist/img/Daniel-Pratama.svg" alt="" class="w-full" />
+              <div class="flex flex-col gap-4 px-3 py-2 bg-bgbox rounded-b-xl lg:pb-5 xl:pb-4 xl:pt-4">
+                <div class="flex flex-col gap-0.5">
+                  <h1 class="font-bold text-base lg:text-lg xl:text-xl">Daniel Pratama</h1>
+                  <p class="font-medium text-xs opacity-50 lg:text-sm xl:text-base">
+                    Pelatih Profesional
+                  </p>
+                </div>
+                <div class="flex gap-5 lg:justify-between">
+                  <div class="flex gap-2">
+                    <a href="#">
+                      <img src="dist/img/instagram.svg" alt="instagram" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/titok.svg" alt="tiktok" />
+                    </a>
+                  </div>
+                  <a href="#" class="flex bg-primary items-center rounded-md">
+                    <img
+                      src="dist/img/arrow-coach.svg"
+                      alt="arrow"
+                      class="px-2 py-1"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide w-full">
+              <img src="dist/img/John-Ramadhan.svg" alt="" class="w-full" />
+              <div class="flex flex-col gap-4 px-3 py-2 bg-bgbox rounded-b-xl lg:pb-5 xl:pb-4 xl:pt-4">
+                <div class="flex flex-col gap-0.5">
+                  <h1 class="font-bold text-base lg:text-lg xl:text-xl">John Ramadhan</h1>
+                  <p class="font-medium text-xs opacity-50 lg:text-sm xl:text-base">
+                    Pelatih Profesional
+                  </p>
+                </div>
+                <div class="flex gap-5 lg:justify-between">
+                  <div class="flex gap-2">
+                    <a href="#">
+                      <img src="dist/img/instagram.svg" alt="instagram" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/titok.svg" alt="tiktok" />
+                    </a>
+                  </div>
+                  <a href="#" class="flex bg-primary items-center rounded-md">
+                    <img
+                      src="dist/img/arrow-coach.svg"
+                      alt="arrow"
+                      class="px-2 py-1"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide w-full">
+              <img src="dist/img/Sarah-Sucianti.svg" alt="" class="w-full" />
+              <div class="flex flex-col gap-4 px-3 py-2 bg-bgbox rounded-b-xl lg:pb-5 xl:pb-4 xl:pt-4">
+                <div class="flex flex-col gap-0.5">
+                  <h1 class="font-bold text-base lg:text-lg xl:text-xl">Sarah Sucianti</h1>
+                  <p class="font-medium text-xs opacity-50 lg:text-sm xl:text-base">
+                    Pelatih Profesional
+                  </p>
+                </div>
+                <div class="flex gap-5 lg:justify-between">
+                  <div class="flex gap-2">
+                    <a href="#">
+                      <img src="dist/img/instagram.svg" alt="instagram" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/titok.svg" alt="tiktok" />
+                    </a>
+                  </div>
+                  <a href="#" class="flex bg-primary items-center rounded-md">
+                    <img
+                      src="dist/img/arrow-coach.svg"
+                      alt="arrow"
+                      class="px-2 py-1"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide w-full">
+              <img src="dist/img/Alex-Santoso.svg" alt="" class="w-full" />
+              <div class="flex flex-col gap-4 px-3 py-2 bg-bgbox rounded-b-xl lg:pb-5 xl:pb-4 xl:pt-4">
+                <div class="flex flex-col gap-0.5">
+                  <h1 class="font-bold text-base lg:text-lg xl:text-xl">Alex Santoso</h1>
+                  <p class="font-medium text-xs opacity-50 lg:text-sm xl:text-base">
+                    Pelatih Profesional
+                  </p>
+                </div>
+                <div class="flex gap-5 lg:justify-between">
+                  <div class="flex gap-2">
+                    <a href="#">
+                      <img src="dist/img/instagram.svg" alt="instagram" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/titok.svg" alt="tiktok" />
+                    </a>
+                  </div>
+                  <a href="#" class="flex bg-primary items-center rounded-md">
+                    <img
+                      src="dist/img/arrow-coach.svg"
+                      alt="arrow"
+                      class="px-2 py-1"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide w-full">
+              <img src="dist/img/Lisa-Nirmala.svg" alt="" class="w-full" />
+              <div class="flex flex-col gap-4 px-3 py-2 bg-bgbox rounded-b-xl lg:pb-5 xl:pb-4 xl:pt-4">
+                <div class="flex flex-col gap-0.5">
+                  <h1 class="font-bold text-base lg:text-lg xl:text-xl">Lisa Nirmala</h1>
+                  <p class="font-medium text-xs opacity-50 lg:text-sm xl:text-base">
+                    Pelatih Profesional
+                  </p>
+                </div>
+                <div class="flex gap-5 lg:justify-between">
+                  <div class="flex gap-2">
+                    <a href="#">
+                      <img src="dist/img/instagram.svg" alt="instagram" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="#">
+                      <img src="dist/img/titok.svg" alt="tiktok" />
+                    </a>
+                  </div>
+                  <a href="#" class="flex bg-primary items-center rounded-md">
+                    <img
+                      src="dist/img/arrow-coach.svg"
+                      alt="arrow"
+                      class="px-2 py-1"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Pelatih End -->
+
+    <!-- Paket keanggotaan Start -->
+    <section class="container mx-auto mt-10 md:mt-14 xl:mt-48" id="Harga">
+      <div class="flex flex-col gap-5 lg:gap-8 xl:gap-12 2xl:gap-16">
+        <div
+          class="flex flex-col items-center gap-2 lg:gap-3 xl:gap-5 2xl:gap-7"
+        >
+          <h1
+            class="text-center font-extrabold text-base tracking-wider lg:text-xl xl:text-4xl 2xl:text-[44px]"
+          >
+            Paket Keanggotaan
+            <span class="font-semibold opacity-80"
+              >dan Harga EnergiFit Gym</span
+            >
+          </h1>
+          <p
+            class="text-center text-xs font-medium opacity-65 leading-4 w-[85%] md:w-[100%] lg:text-sm xl:text-lg xl:font-normal"
+          >
+            Setiap pelatih kami siap membantu Anda mencapai tujuan kebugaran
+            Anda.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-6 items-center md:flex-row md:gap-4 lg:gap-4 2xl:gap-5"
+        >
+          <div class="bg-bgbox rounded-md w-[90%] md:w-full xl:rounded-2xl">
+            <div
+              class="flex flex-col p-3 gap-4 xl:gap-6 xl:px-5 xl:py-[22px] 2xl:gap-7"
+            >
+              <div class="flex flex-col gap-4 xl:gap-7 2xl:gap-8">
+                <div class="flex flex-col gap-3 xl:gap-5 2xl:gap-7">
+                  <div class="flex flex-col gap-1 xl:gap-[5px]">
+                    <h1
+                      class="font-bold text-sm lg:text-base xl:text-xl 2xl:text-2xl"
+                    >
+                      Paket Bulanan
+                    </h1>
+                    <p
+                      class="font-medium text-xs opacity-40 lg:text-sm xl:text-base 2xl:text-lg"
+                    >
+                      Keanggotaan setiap bulan
+                    </p>
+                  </div>
+                  <h1 class="font-bold text-xl lg:text-2xl xl:text-4xl">
+                    Rp500,000
+                    <span
+                      class="font-medium text-xs opacity-40 lg:text-sm xl:text-base 2xl:text-lg"
+                      >/ Bulan</span
+                    >
+                  </h1>
+                </div>
+                <a
+                  href="#"
+                  class="bg-primary text-body text-xs font-bold block px-[14px] py-[10px] rounded-md w-full text-center lg:text-sm lg:px-4 lg:py-[10px] xl:text-lg xl:px-[26px] xl:py-[13px] 2xl:font-bold 2xl:text-xl 2xl:py-4"
+                  >Mulai Sekarang</a
+                >
+              </div>
+              <div
+                class="bg-white opacity h-[2px] opacity-10 rounded-full"
+              ></div>
+              <div class="flex flex-col gap-5 xl:gap-7">
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Akses penuh ke semua fasilitas gym
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Akses ke semua kelas kebugaran
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    1 sesi konsultasi nutrisi gratis
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    2 sesi personal training gratis
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/not.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-45 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Evaluasi kebugaran bulanan
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/not.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-45 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Diskon 10% untuk layanan tambahan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-bgbox rounded-md w-[90%] md:w-full xl:rounded-2xl">
+            <div
+              class="flex flex-col p-3 gap-4 xl:gap-6 xl:px-5 xl:py-[22px] 2xl:gap-7"
+            >
+              <div class="flex flex-col gap-4 xl:gap-7 2xl:gap-8">
+                <div class="flex flex-col gap-3 xl:gap-5 2xl:gap-7">
+                  <div class="flex flex-col gap-1 xl:gap-[5px]">
+                    <h1
+                      class="font-bold text-sm lg:text-base xl:text-xl 2xl:text-2xl"
+                    >
+                      Paket Triwulanan
+                    </h1>
+                    <p
+                      class="font-medium text-xs opacity-40 lg:text-sm xl:text-base 2xl:text-lg"
+                    >
+                      Keanggotaan setiap 3 bulan
+                    </p>
+                  </div>
+                  <h1 class="font-bold text-xl lg:text-2xl xl:text-4xl">
+                    Rp 1,350,000
+                    <span
+                      class="font-medium text-xs opacity-40 lg:text-sm xl:text-base 2xl:text-lg"
+                      >/ 3 Bulan</span
+                    >
+                  </h1>
+                </div>
+                <a
+                  href="#"
+                  class="bg-primary text-body text-xs font-bold block px-[14px] py-[10px] rounded-md w-full text-center lg:text-sm lg:px-4 lg:py-[10px] xl:text-lg xl:px-[26px] xl:py-[13px] 2xl:font-bold 2xl:text-xl 2xl:py-4"
+                  >Mulai Sekarang</a
+                >
+              </div>
+              <div
+                class="bg-white opacity h-[2px] opacity-10 rounded-full"
+              ></div>
+              <div class="flex flex-col gap-5 xl:gap-7">
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Akses penuh ke semua fasilitas gym
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Akses ke semua kelas kebugaran
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    1 sesi konsultasi nutrisi gratis
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    2 sesi personal training gratis
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Evaluasi kebugaran bulanan
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/not.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-45 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Diskon 10% untuk layanan tambahan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-bgbox rounded-md w-[90%] md:w-full xl:rounded-2xl">
+            <div
+              class="flex flex-col p-3 gap-4 xl:gap-6 xl:px-5 xl:py-[22px] 2xl:gap-7"
+            >
+              <div class="flex flex-col gap-4 xl:gap-7 2xl:gap-8">
+                <div class="flex flex-col gap-3 xl:gap-5 2xl:gap-7">
+                  <div class="flex flex-col gap-1 xl:gap-[5px]">
+                    <h1
+                      class="font-bold text-sm lg:text-base xl:text-xl 2xl:text-2xl"
+                    >
+                      Paket Tahunan
+                    </h1>
+                    <p
+                      class="font-medium text-xs opacity-40 lg:text-sm xl:text-base 2xl:text-lg"
+                    >
+                      Keanggotaan setiap satu tahun
+                    </p>
+                  </div>
+                  <h1 class="font-bold text-xl lg:text-2xl xl:text-4xl">
+                    Rp4,800,000
+                    <span
+                      class="font-medium text-xs opacity-40 lg:text-sm xl:text-base 2xl:text-lg"
+                      >/ Tahun</span
+                    >
+                  </h1>
+                </div>
+                <a
+                  href="#"
+                  class="bg-primary text-body text-xs font-bold block px-[14px] py-[10px] rounded-md w-full text-center lg:text-sm lg:px-4 lg:py-[10px] xl:text-lg xl:px-[26px] xl:py-[13px] 2xl:font-bold 2xl:text-xl 2xl:py-4"
+                  >Mulai Sekarang</a
+                >
+              </div>
+              <div
+                class="bg-white opacity h-[2px] opacity-10 rounded-full"
+              ></div>
+              <div class="flex flex-col gap-5 xl:gap-7">
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Akses penuh ke semua fasilitas gym
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Akses ke semua kelas kebugaran
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    1 sesi konsultasi nutrisi gratis
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    2 sesi personal training gratis
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Evaluasi kebugaran bulanan
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-2 lg:gap-3 xl:gap-4 2xl:gap-5"
+                >
+                  <img
+                    src="dist/img/Check.svg"
+                    alt="Check"
+                    class="w-4 lg:w-5 xl:w-6"
+                  />
+                  <p
+                    class="font-medium text-xs opacity-70 lg:text-sm xl:text-base 2xl:text-lg"
+                  >
+                    Diskon 10% untuk layanan tambahan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Paket Keanggotaan end-->
+
+    <!--Testimoni Start-->
+    <section class="container w-full mx-auto mt-10 md:mt-14 xl:mt-48" id="Review">
+      <div class="flex items-end">
+        <div class="flex flex-col lg:pr-5">
+          <div class="flex items-end justify-between">
+            <h1
+              class="font-extrabold text-base tracking-wider w-[70%] md:w-[60%] lg:text-xl xl:text-4xl xl:w-[70%] xl:leading-[55px] 2xl:text-[44px]"
+            >
+              Testimoni
+              <span class="font-semibold opacity-80"
+                >Pengalaman Anggota Kami</span
+              >
+            </h1>
+            <div class="flex gap-1 lg:gap-3">
+              <div class="swiper-button-prev-custom">
+                <img
+                  src="dist/img/button-arrow-left.svg"
+                  alt=""
+                  class="w-4/5 lg:w-[90%] xl:w-full"
+                />
+              </div>
+              <div class="swiper-button-next-custom">
+                <img
+                  src="dist/img/button-arrow-right.svg"
+                  alt=""
+                  class="w-4/5 lg:w-[90%] xl:w-full"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper testimoni-swiper">
+            <div
+              class="swiper-wrapper pt-5 pb-3 lg:pt-8 lg:pb-4 xl:pt-10 xl:pb-5"
+            >
+              <div class="swiper-slide swiper-slide1">
+                <div class="bg-bgbox rounded-md md:rounded-lg xl:rounded-xl">
+                  <div class="flex flex-col gap-2 p-3 xl:p-5 xl:gap-4">
+                    <div class="flex gap-3">
+                      <img
+                        src="dist/img/Testi-1.svg"
+                        alt="testimoni"
+                        class="w-10 xl:w-12"
+                      />
+                      <div class="flex flex-col gap-1">
+                        <h1 class="font-bold text-sm lg:text-base xl:text-xl">
+                          Dimas Ardiawan
+                        </h1>
+                        <div class="flex gap-1 w-[15%] xl:w-[20%]">
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                        </div>
+                      </div>
+                    </div>
+                    <p
+                      class="font-medium text-xs opacity-70 line-clamp-4 md:leading-5 lg:text-sm xl:text-lg 2xl:text-lg"
+                    >
+                      Saya suka suasana di EnergiFit Gym. Semua orang sangat
+                      ramah dan mendukung. Kelas-kelasnya juga sangat
+                      bervariasi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide swiper-slide1">
+                <div class="bg-bgbox rounded-md md:rounded-lg xl:rounded-xl">
+                  <div class="flex flex-col gap-2 p-3 xl:p-5 xl:gap-4">
+                    <div class="flex gap-3">
+                      <img
+                        src="dist/img/testi-2.svg"
+                        alt="testimoni"
+                        class="w-10 xl:w-12"
+                      />
+                      <div class="flex flex-col gap-1">
+                        <h1 class="font-bold text-sm lg:text-base xl:text-xl">
+                          Rina Suti
+                        </h1>
+                        <div class="flex gap-1 w-[15%] xl:w-[20%]">
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                        </div>
+                      </div>
+                    </div>
+                    <p
+                      class="font-medium text-xs opacity-70 line-clamp-5 md:line-clamp-4 md:leading-5 lg:text-sm xl:text-lg 2xl:text-lg"
+                    >
+                      Gym ini benar-benar mengubah hidup saya! Pelatih
+                      profesional dan fasilitas lengkap membantu saya mencapai
+                      tujuan kebugaran saya.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide swiper-slide1">
+                <div class="bg-bgbox rounded-md md:rounded-lg xl:rounded-xl">
+                  <div class="flex flex-col gap-2 p-3 xl:p-5 xl:gap-4">
+                    <div class="flex gap-3">
+                      <img
+                        src="dist/img/testi-3.svg"
+                        alt="testimoni"
+                        class="w-10 xl:w-12"
+                      />
+                      <div class="flex flex-col gap-1">
+                        <h1 class="font-bold text-sm lg:text-base xl:text-xl">
+                          Maya Kaliber
+                        </h1>
+                        <div class="flex gap-1 w-[15%] xl:w-[20%]">
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                          <img src="dist/img/Star.svg" alt="star" class="" />
+                        </div>
+                      </div>
+                    </div>
+                    <p
+                      class="font-medium text-xs opacity-70 line-clamp-4 md:leading-5 lg:text-sm xl:text-lg 2xl:text-lg"
+                    >
+                      Fasilitas di EnergiFit Gym luar biasa! Peralatan modern
+                      dan area relaksasi sangat lengkap. Pelatih selalu siap
+                      membantu.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="dist/img/testimoni-img.svg"
+          alt=""
+          class="hidden md:block md:w-80 lg:w-[400px] xl:w-[44%]"
+        />
+      </div>
+    </section>
+    <!-- Testimoni End-->
+
+    <!-- CTA start -->
+    <section class="container mx-auto mt-10 md:mt-14 xl:mt-48">
+      <div class="bg-primary rounded-md lg:rounded-lg xl:rounded-xl">
+        <div class="flex flex-col p-4 items-center gap-4 lg:gap-5 lg:py-6 xl:py-14 xl:gap-7 2xl:py-16 2xl:gap-8">
+          <div class="flex flex-col gap-1 items-center lg:gap-3 xl:gap-5">
+            <h1 class="text-body text-center text-lg font-black md:w-[50%] lg:text-2xl lg:w-[40%] xl:text-5xl xl:w-[70%] xl:leading-[65px]">
+              Bergabunglah Bersama EnergiFit Gym Hari Ini!
+            </h1>
+            <p
+              class="text-body text-xs text-center font-semibold opacity-90 leading-4 w-[100%] md:w-[70%] lg:text-sm lg:w-[60%] xl:text-lg xl:font-normal 2xl:w-[60%]"
+            >
+              Ambil langkah pertama menuju gaya hidup sehat dan bugar bersama
+              EnergiFit Gym! Dengan fasilitas lengkap, pelatih profesional, dan
+              program latihan yang inovatif.
+            </p>
+          </div>
+          <div class="flex gap-2 lg:gap-3 xl:gap-4">
+            <a
+              href="#"
+              class="bg-body text-xs font-semibold block px-[14px] py-2 rounded-sm text-center lg:text-sm lg:px-4 lg:py-[10px] xl:text-base xl:px-[26px] xl:py-[13px] 2xl:font-bold"
+              >Mulai Sekarang</a
+            >
+            <a
+              href="#"
+              class="bg-body text-xs font-semibold block px-[14px] py-2 rounded-sm text-center lg:text-sm lg:px-4 lg:py-[10px] xl:text-base xl:px-[26px] xl:py-[13px] 2xl:font-bold"
+              >Jadwalkan Latihan</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA End -->
+
+    <!-- Footer Start -->
+    <section class="mt-10 md:mt-14 xl:mt-48">
+      <div class="bg-bgbox">
+        <div class="container mx-auto flex flex-col py-10 lg:gap-10 xl:pt-10 xl:gap-14">
+          <div class="flex flex-col gap-5 lg:flex-row lg:justify-between lg:w-full">
+            <div class="flex flex-col gap-3 lg:gap-4 lg:w-1/3 xl:gap-6">
+              <div class="flex flex-col gap-2 lg:gap-4  xl:gap-5">
+                <div class="flex items-center gap-3 xl:gap-4 lg:w-[30%] lg:gap-5 xl:w-full">
+                  <img src="dist/img/logo.svg" alt="" class="w-5 lg:w-6 xl:w-8" />
+                  <h1
+                    class="text-primary font-extrabold text-base lg:text-lg xl:text-2xl"
+                  >
+                    EnergiFit Gym
+                  </h1>
+                </div>
+                <p
+                  class="font-medium text-xs opacity-65 lg:text-base xl:text-lg 2xl:text-lg"
+                >
+                  Pusat kebugaran terkemuka yang berdedikasi untuk membantu Anda
+                  mencapai tujuan kebugaran Anda.
+                </p>
+              </div>
+              <div class="flex gap-1 lg:gap-2 xl:gap-3">
+                <a href="#">
+                  <img src="dist/img/instagram.svg" alt="instagram" class="w-6 lg:w-7 xl:w-9"/>
+                </a>
+                <a href="#">
+                  <img src="dist/img/facebook.svg" alt="facebook" class="w-6 lg:w-7 xl:w-9" />
+                </a>
+                <a href="#">
+                  <img src="dist/img/youtube.svg" alt="youtube" class="w-6 lg:w-7 xl:w-9" />
+                </a>
+                <a href="#">
+                  <img src="dist/img/titok.svg" alt="tiktok" class="w-6 lg:w-7 xl:w-9" />
+                </a>
+              </div>
+            </div>
+
+            <div class="flex gap-3 lg:w-full lg:justify-end lg:gap-16 xl:gap-28">
+              <div class="flex flex-col gap-2 lg:gap-3 xl:gap-4">
+                <h1 class="text-primary font-extrabold text-sm lg:text-lg xl:text-xl">Link</h1>
+                <div class="flex flex-col gap-1 lg:gap-2 xl:gap-3">
+                  <a href="#">
+                    <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                      Beranda
+                    </p>
+                  </a>
+                  <a href="#">
+                    <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                        Profil
+                    </p>
+                  <a href="#">
+                    <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                        Pelatih
+                    </p>
+                  <a href="#">
+                    <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                        Harga
+                    </p>
+                  <a href="#">
+                    <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                        Review
+                    </p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-2 lg:gap-3 xl:gap-4">
+                <h1 class="text-primary font-extrabold text-sm lg:text-lg xl:text-xl">Kontak Kami</h1>
+                <div class="flex flex-col gap-1 lg:gap-2 xl:gap-3">
+                  <a href="#">
+                    <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                        Denpasar, Bali, Indonesia
+                    </p>
+                  </a>
+                  <a href="#">
+                    <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                        +123-456-789
+                    </p>
+                  <a href="#">
+                    <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                        EnergiFit@gmail.com
+                    </p>
+                  <a href="#">
+                    <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                        Butuh bantuan ?
+                    </p>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-2 lg:gap-3 xl:gap-4">
+                <h1 class="text-primary font-extrabold text-sm lg:text-lg xl:text-xl">Map</h1>
+                <img src="dist/img/map.svg" alt="" class="w-28 lg:w-auto">
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-4 lg:flex-row lg:justify-between">
+            <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                © Copyright by Wayan Sadu. All right reserved
+            </p>
+            <div class="flex gap-3">
+                <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                    Privacy  Policy 
+                </p>
+                <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                    Teams of use
+                </p>
+                <p class="font-medium text-xs opacity-65 lg:text-sm xl:text-lg 2xl:text-lg">
+                    Legal
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer End -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

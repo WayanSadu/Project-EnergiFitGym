@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply w-[92%]
+}
+
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.navbar-fixed{
+    @apply fixed z-[9999]
+}
+
+.swiper-scrollbar{
+  background-color:#1F1F1F !important; 
+
+}
+
+.swiper-slide {
+  width: auto; /* Membiarkan Swiper mengontrol lebar slide */
+}
+
+
+.swiper-slide{
+  /* width: fit-content !important; */
+  }
+
+.swiper-slide1{
+    @apply w-[48%] !important; /* Gunakan w-full agar slide menggunakan lebar penuh yang ditentukan Swiper */
+}
+
+
+.swiper-scrollbar-lock{
+  @apply block !important; 
+}
+
+.swiper-scrollbar .swiper-scrollbar-drag{
+background-color:#C7FF26;
+}
+
+.swiper-scrollbar{
+  @apply w-[40%] bottom-0 left-1/2 -translate-x-1/2 !important;
+}
+
+.swiper-scrollbar1{
+  @apply w-full !important;
+}
